@@ -1,0 +1,17 @@
+# ArrayList
+## 问题清单：
+### 刚new 出来的list，内部数组有多长
+### size()和内部数组长度是一回事吗
+### 能存null吗，能存重复吗，indexOf(null)会炸吗
+### list.remove(1) 和 list.remove(Integer.valueof(1))结果一样吗
+### Arrays.asList("a","b")返回的是ArrayList吗，为什么add报错？
+### for-each遍历时remove为什么抛ConcurrentModificationException？modCount 是什么？
+### 初始容量到底是多少?什么时候真正分配数组
+### 扩容公式是什么？是10-15-22-33吗
+### 加第11个元素时，是先扩容再存还是先存再扩容
+### 扩容时旧元素移动还是复制？旧数组去哪了
+### ensureCapacity(100)是干什么的？为什么建议提前调
+### new ArrayList<>(0)和new ArrayList<>()一样吗
+### 为什么是1.5倍不是2倍
+### ArrayList vs LinkedList：get(i) / 头部插入 / 内存占用，谁赢？
+### 	ArrayList vs Vector：为什么 Vector 被淘汰？
